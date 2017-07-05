@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+
+BOT_NAME = 'startnext'
+
+SPIDER_MODULES = ['startnext.spiders']
+NEWSPIDER_MODULE = 'startnext.spiders'
+
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0'
+
+ROBOTSTXT_OBEY = True
+
+CONCURRENT_REQUESTS = 1
+DOWNLOAD_DELAY = 3
+CONCURRENT_REQUESTS_PER_DOMAIN = 16
+CONCURRENT_REQUESTS_PER_IP = 16
+AUTOTHROTTLE_ENABLED = True
+COOKIES_ENABLED = True
+
+LOG_LEVEL="WARNING"
