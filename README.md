@@ -21,7 +21,7 @@ The crawler will then lead you through the crawling process, just follow the pro
 
 ### 2.1 Login-credentials
 
-The crawler will ask you to enter your login-credentials each time. You can also set them manually in the spider, see 
+The crawler will ask you to enter your login-credentials each time. You can also set them manually in the spider, see [3.3](https://github.com/testingcan/startnext-messages#33-setting-login-credentials).
 
 ## 3. Tips
 
