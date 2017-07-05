@@ -6,7 +6,6 @@ from scrapy.http import HtmlResponse
 import json
 import urllib
 import getpass
-from scrapy.utils.response import open_in_browser
 
 class StartSpider(scrapy.Spider):
     name = 'start'
